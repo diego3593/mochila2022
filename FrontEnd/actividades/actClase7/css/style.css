@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#fondoLogo{
+    align-items: center;
+    background: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.tituloySubtitulos{
+    background: #C4C4C4;
+    color: #005677;
+}
+.sangria{
+    height: 2cm;
+}
+.sangriaDos{
+    height: 1cm;
+}
+.papi{
+    display: flex;
+    margin-top: auto;
+}
+.fecha{
+    font-weight: bold;
+    width: max-content;
+}
+.negrita{
+    font-weight: bold;
+}
+#footer{
+    align-items: center;
+    background: #005677;
+    color: white;
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.imgfooter{
+    width: 40px;
+}
+.telfooter{
+    width: 130px;
+}
