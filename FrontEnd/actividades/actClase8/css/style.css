@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poor Story', cursive,sans-serif;
+}
+header{
+    height: 190px;
+    background-image: url(../img/OIP.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+#encabezado{
+    width: 900px;
+    margin: auto;
+    text-align: justify;
+}
+#imgUser{
+    height: 140px;
+	width: 140px;
+	border-radius: 50%;
+    transform:rotate(305deg);
+    border: 2px solid #033f03;
+    float: left;
+    position: relative;
+    top: 25px;
+}
+#datosUser{
+    font-size: 25px;
+    color: black;
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+#menu{
+    text-align: center;
+    height: 38px;
+}
+.enlaces{
+    
+    display: inline-block;
+}
+.enlaces a{
+    margin: 2px;
+    padding: 7px;
+    width: 120px;
+    border-radius: 0.5em;
+    color: #F2FBEF;
+    display: block;
+    text-decoration: none;
+    background-color: #033f03;
+}
+.subtitulos{
+    background-color: #c2fa86;
+    text-align: center;
+}
+.fondodatos{
+    margin: auto;
+    width: 900px;
+    text-align: justify;
+}
+.datos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:inline-block;
+}
+.negrita{
+    font-weight: bold;
+}
+#pasto{
+    background-position: center;
+    border-radius: 0.5em;
+    height: 200px
+}
+footer{
+    background-color: #033f03;
+    height: 40px;
+    color: #F2FBEF;
+    text-decoration: none;
+}
+#pie{
+    width: 900px;
+    display: flex;
+    margin: auto;
+    
+
+}
+.redes{
+    position: relative;
+    left: 30px;
+
+}
+.aRedes{
+    margin: 2px;
+    padding: 7px;
+    width: 120px;
+    border-radius: 0.5em;
+    color: #F2FBEF;
+    display: block;
+    text-decoration: none;
+    background-color: #033f03;
+}

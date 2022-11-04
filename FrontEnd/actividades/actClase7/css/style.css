@@ -10,6 +10,11 @@
     max-width: 1440px;
     margin: 0 auto;
 }
+h1{
+    background: #C4C4C4;
+    color: #005677;
+    text-align: center;
+}
 .tituloySubtitulos{
     background: #C4C4C4;
     color: #005677;
