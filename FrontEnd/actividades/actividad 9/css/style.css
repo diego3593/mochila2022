@@ -1,0 +1,57 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#superior{
+    background-color: #000;
+    color: #fff;
+}
+#inferior{
+    background-color: #F0A83E;
+}
+#fondoImg{
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    text-align: center;
+}
+.anuncio{
+    text-align: center;
+
+}
+#listPro{
+    padding: auto;
+    text-align: center;
+}
+#botonUno{
+    background-color: #F0A83E;
+    border-color: #F0A83E;
+    border-radius: 0.5em;
+}
+#footer{
+    background-color: #3C2313;
+}
+#barraIntermedio{
+    background-color: #F0A83E;
+    color: #fff;
+}
+
+#botonDos{
+    background-color: #3C2313;
+    border-color: #3C2313;
+    border-radius: 0.5em;
+    color: #fff;
+}
+i{
+    background-color: grey;
+    padding: 15px;
+    border-radius: 50%;
+    color: #fff;
+}
+.iconos{
+    color: #fff;
+}
+#reservado{
+    background-color: #000;
+    color: #fff;
+}
