@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    min-width: 700px;
+}
+header{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 20px;
+}
+#nav{
+    color: #fff;
+    display: flex;
+    gap: 15px;
+}
+main{
+    display: flex;
+    padding: 40px 19px;
+    font-weight: bold;
+}
+#delivery{
+    width: 50%;
+}
+#subuno{
+    padding: 0px 20px;
+    position: relative;
+    bottom: -28px;
+    color: #FC200C;
+    font-size: 20px;
+}
+strong{
+    color: #FFFFFF;
+}
+#subdos{
+    text-align: center;
+    position: relative;
+    bottom: -28px;
+    color: #FC200C;
+    font-size: 20px;
+}
+#foto{
+    width: 100%;
+}
+#carta{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+#menu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+    padding: 0px 0px 0px 30px;
+    height: 50%;
+}
+ol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer{
+    background-color: #222222;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 20px;
+}
+#pie{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+ul{
+    color: #fff;
+}
