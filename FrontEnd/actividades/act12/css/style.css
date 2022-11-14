@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    max-width: 1400px;
 }
 .navSuperior{
     background-color: #222222;
@@ -204,16 +205,18 @@ flex-wrap: wrap;
 }
 #piedos{
     display: flex;
-    flex-direction: row-reverse;
     background-color: #3C2313;
     color: #FFFFFF;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 #piedos p{
     font-size: 13px;
     color: #8A8787;
+}
+#logo{
+    padding: 0px 35px;
 }
 .datos{
     padding: 0px 0px 0px 20px;
