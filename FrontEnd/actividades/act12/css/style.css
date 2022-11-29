@@ -6,6 +6,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     max-width: 1400px;
+    min-width: 330px;
 }
 .navSuperior{
     background-color: #222222;
@@ -172,15 +173,15 @@ form ::placeholder{
     margin: 5px;
 }
 #pieuno{
-display: flex;
-background-color: #F0A83E;
-align-items: center;
-justify-content: space-between;
-color: #FFFFFF;
-padding: 7px 15px;
-font-size: 20px;
-font-weight: 700;
-flex-wrap: wrap;
+    display: flex;
+    background-color: #F0A83E;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    padding: 7px 15px;
+    font-size: 20px;
+    font-weight: 700;
+    flex-wrap: wrap;
 }
 #pieuno input{
     width: 271px;
@@ -230,4 +231,7 @@ flex-wrap: wrap;
     background-color: #222222;
     color: #FFFFFF;
     text-align: center;
+}
+@media(max-width: 400px){
+
 }

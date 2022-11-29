@@ -13,6 +13,12 @@ body{
 }
 header{
     width: 100%;
+    position: fixed;
+    z-index: 5;
+    box-shadow: 5px 5px 20px black;
+}
+section{
+    margin: 100px 0px 0px 0px;
 }
 h5{
     background-color: #D1891C;
@@ -29,6 +35,19 @@ section{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+#masCartas{
+    position: fixed;
+    right: 20px;
+    top: 50vh;
+    width: 60px;
+    height: 60px;
+    background-color: #00669F;
+    color: #F3F3F3;
+    font-size: 40px;
+    border: none;
+    border-radius: 50%;
+    z-index: 4;
+}
 .fondo{
     width: 100%;
     border-radius: 10px 10px 0px 0px;
@@ -37,42 +56,58 @@ section{
     text-align: center;
 }
 .card{
+    position: relative;
+    border-radius: 0.3em;
     display: flex;
     flex-direction: column;
     padding: 0px;
-    min-width: 275px;
+    min-width: 300px;
     width: 24%;
-    height: 580px;
+    height: 520px;
     background-color: #F3F3F3;
     margin: 20px 5px;
     box-shadow: 6px 6px 3px rgba(0, 0, 0, 0.5);
 }
 h3{
     text-align: center;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: bold;
     position: relative;
-    top: -15%;
+    top: 25%;
 }
 p{
+    position: relative;
+    top: 25%;
     height: 190px;
     padding: 0px 10px;
 }
 .personaje{
-    position: relative;
-    top: -24%;
-    width: 45%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 50%;
+    z-index: 3;
+    border-radius: 50%;
+}
+#segundaFoto{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 50%;
+    z-index: 2;
     border-radius: 50%;
 }
 .vermas{
     background-color: #00669F;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 25px;
+    color: #F3F3F3;
     position: relative;
-    left: 32%;
-    padding: 4px 10px;
-    border-radius: 3px;
+    top: 22%;
+    left: 35%;
+    width: 90px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    font-size:18px;
 }
 footer{
     background-color: #00669F;
@@ -93,4 +128,22 @@ h2{
     width: 30%;
     text-align: right;
     padding: 0px 20px;
+}
+
+@media (max-width:780px){
+    .vermas{
+        top: 21%;
+        left: 30%;
+        width: 120px;
+        height: 45px;
+        font-size:25px;
+    }
+    #harley{
+        display: none;
+    }
+}
+@media (max-width: 480px) {
+    #segundaFoto{
+        z-index: 4;
+    }
 }
